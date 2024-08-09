@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Parties de la maison</title>
+        <link rel="icon" type="image/png" href="Recursos/DesignerFavicon4.png">
+    <link rel="stylesheet" href="CSS Pag Principal.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+ 
+</head>
+<header>
+    <h1>
+        Bienvenue à Jugando J'apprends
+    </h1>
+</header>
+<body>
+<title>Parties de la maison</title>
+    <div class="Bienvenue">
+    <h1>
+    Bienvenue!
+    </h1>
+    </div>
+<div class="Intro">
+<b>Aquí aprenderás las partes de la casa en francés que podrás utilizar en tu día a día 
+<br><br>
+Ahora por medio de preguntas comprobaras tus conocimientos.</b>
+</div>
+    <main>
+        
+        <section id="Pregunta1" class="ContenedorPregunta">
+
+            <div class="Pregunta">
+                Cómo es Baño en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LaSalleDeBain.jpg" alt="Un" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Salon</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta2')">Salle de bain</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto')">Cuisine</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Escaliers</button>
+            </div>
+        </section>
+        <section id="Pregunta2" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Habitación en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LaChambre.jpg" alt="Deux" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Cuisine</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Salle de bain</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta3')">Chambre</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Garage</button>
+            </div>
+        </section>
+        <section id="Pregunta3" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Cocina en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LaCuisine.jpg" alt="Trois" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta4')">Cuisine</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Chambre</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Salle de bain</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Escaliers</button>
+            </div>
+        </section>
+        <section id="Pregunta4" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Sala de estar en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LeSalon.jpg" alt="Quatre" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Escaliers</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Salle de bain</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Chambre</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta5')">Salon</button>
+            </div>
+        </section>
+        <section id="Pregunta5" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Garaje en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LeGarage.jpg" alt="Cinq" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Salon</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Escaliers</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta6')">Garage</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Cuisine</button>
+            </div>
+        </section>
+        <section id="Pregunta6" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Escaleras en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/L'Escaliers.jpg" alt="Six" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Salle de bain</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Salon</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Chambre</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta7')">Escaliers</button>
+            </div>            
+        </section>
+        
+    </main>
+<script src="Ejercicios.js"></script>
+<footer class="botones">
+    <div class="botonAnt">
+        <a href="Partes de la casa.html">
+            Introducción
+        </a>
+    </div>
+    <div class="botonSig">
+        <a href="Pagina principal.html">
+            Pagina principal
+        </a>
+    </div>
+    
+</footer>
+</body>
+</html>

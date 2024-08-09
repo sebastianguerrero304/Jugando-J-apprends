@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Parties du corps</title>
+        <link rel="icon" type="image/png" href="Recursos/DesignerFavicon4.png">
+    <link rel="stylesheet" href="CSS Pag Principal.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+ 
+</head>
+<header>
+    <h1>
+        Bienvenue à Jugando J'apprends
+    </h1>
+</header>
+<body>
+<title>Parties du corps</title>
+    <div class="Bienvenue">
+    <h1>
+    Bienvenue!
+    </h1>
+    </div>
+<div class="Intro">
+<b>Aquí aprenderás las partes del cuerpo en francés que podrás utilizar en tu día a día 
+<br><br>
+Ahora por medio de preguntas comprobaras tus conocimientos.</b>
+</div>
+    <main>
+        
+        <section id="Pregunta1" class="ContenedorPregunta">
+
+            <div class="Pregunta">
+                Cómo es La Cabeza en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LaTête.jpeg" alt="La Tête" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Jambe</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta2')">La Tête</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto')">Le Nez</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Main</button>
+            </div>
+        </section>
+        <section id="Pregunta2" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Los Ojos en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LesYeux.jpeg" alt="LesYeux" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Bouche</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Le Bras</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta3')">Les Yeux</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Jambe</button>
+            </div>
+        </section>
+        <section id="Pregunta3" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es La Boca en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LaBouche.jpeg" alt="LaBouche" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta4')">La Bouche</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Tête</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Main</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Le Nez</button>
+            </div>
+        </section>
+        <section id="Pregunta4" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es La Nariz en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LeNez.jpeg" alt="LeNez" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Jambe</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Bouche</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Les Yeux</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta5')">Le Nez</button>
+            </div>
+        </section>
+        <section id="Pregunta5" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es El Brazo en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LeBras.jpeg" alt="LeBras" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Tête</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Jambe</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta6')">Le Bras</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Le Nez</button>
+            </div>
+        </section>
+        <section id="Pregunta6" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es La Mano en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LaMain.jpeg" alt="LaMain" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Le Pied</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Bouche</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Les Yeux</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta7')">La Main</button>
+            </div>            
+        </section>
+        <section id="Pregunta6" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es La Pierna en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LaJambe.jpeg" alt="LaJambe" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Le Bras</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Tête</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Le Bras</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta7')">La Jambe</button>
+            </div>            
+        </section>
+        <section id="Pregunta6" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es El Pie en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/LePied.jpeg" alt="LePied" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Bouche</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Main</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">La Tête</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta7')">Le Pied</button>
+            </div>            
+        </section>
+        
+    </main>
+<script src="Ejercicios.js"></script>
+<footer class="botones">
+    <div class="botonAnt">
+        <a href="Partes del cuerpo.html">
+            Introducción
+        </a>
+    </div>
+    <div class="botonSig">
+        <a href="Pagina principal.html">
+            Pagina principal
+        </a>
+    </div>
+    
+</footer>
+</body>
+</html>

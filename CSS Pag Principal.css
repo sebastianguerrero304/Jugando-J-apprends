@@ -1,0 +1,121 @@
+body {
+    padding: 20px;
+    border-radius: 40px;
+    border: 15px solid rgb(247, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: rgb(130, 204, 247);
+}
+header{
+    border: 1px solid black;
+    border-radius: 80px;
+    color: #291fbc;
+    background-color: rgb(161, 220, 160);
+    text-align: center;
+    padding:8px;
+    font-size: x-large;
+}
+.LineaPrincipal{
+    text-align: center;
+    font-size: larger;
+}
+.topics {
+   text-align: center;
+    display: flex;
+   flex-wrap: wrap; 
+
+}
+.topic{
+    text-align: center;
+    background-color: #63b719af;
+    margin: 50px;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+    padding: 20px;
+    color: #093cf4;
+}
+.Bienvenue{
+    text-align: center;
+    font-size: larger;
+    
+}
+.botones{
+    display: flex;
+
+   
+    
+    
+}
+.botonSig{
+    display: inline-block;
+    margin: 5px;
+    text-align: right;
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 7px 7px 10px black;
+    border-radius: 40px;
+    background-color: #ffff70;
+}
+.botonAnt{
+    margin: 5px;
+    text-align: left;
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 7px 7px 10px #000000;
+    border-radius: 40px;
+    background-color: #ffff70;
+}
+.ContenedorPregunta{
+    
+    text-align: center;
+    background-color: #63b719;
+    margin: 50px;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 150px;
+    align-items: center;
+    display: block;
+}
+.Pregunta{
+    color: #ffff70;
+    padding: 15px;
+}
+.ImagenPregunta{
+    padding: 5px;
+    width: 80%;
+    align-items: center;
+}
+
+.Intro{
+  
+    text-align: center;
+    font: bold;
+    font-size: larger;
+}
+.bodyintro{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font: bold;
+}
+.PreguntasIntro{
+    text-align: center;
+    background-color: #ff8c2ed8;
+    margin: 50px;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #700696;
+    
+}
+.Boton{
+    width: 40%;
+}

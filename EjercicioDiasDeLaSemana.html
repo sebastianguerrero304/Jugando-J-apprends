@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jours de la semaine</title>
+        <link rel="icon" type="image/png" href="Recursos/DesignerFavicon4.png">
+    <link rel="stylesheet" href="CSS Pag Principal.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+ 
+</head>
+<header>
+    <h1>
+        Bienvenue à Jugando J'apprends
+    </h1>
+</header>
+<body>
+<title>Jours de la semaine</title>
+    <div class="Bienvenue">
+    <h1>
+    Bienvenue!
+    </h1>
+    </div>
+<div class="Intro">
+<b>Aquí aprenderás los días de la semana en francés que podrás utilizar en tu día a día 
+<br><br>
+Ahora por medio de preguntas comprobaras tus conocimientos.</b>
+</div>
+    <main>
+        
+        <section id="Pregunta1" class="ContenedorPregunta">
+
+            <div class="Pregunta">
+                Cómo es Lunes en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/Lundi.jpg" alt="Lundi" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Vendredi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta2')">Lundi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto')">Jeudi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Dimanche</button>
+            </div>
+        </section>
+        <section id="Pregunta2" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Martes en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/Mardi.jpg" alt="Mardi" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Mercredi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Jeudi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta3')">Mardi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Samedi</button>
+            </div>
+        </section>
+        <section id="Pregunta3" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Miercoles en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/Mercredi.jpg" alt="Mercredi" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta4')">Mercredi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Dimache</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Mardi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Vendredi</button>
+            </div>
+        </section>
+        <section id="Pregunta4" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Jueves en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/Jeudi.jpg" alt="Jeudi" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Lundi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Mercredi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Samedi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta5')">Jeudi</button>
+            </div>
+        </section>
+        <section id="Pregunta5" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Viernes en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/Vendredi.jpg" alt="Vendridi" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Jeudi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Mercredi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto','Pregunta6')">Vendredi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Lundi</button>
+            </div>
+        </section>
+        <section id="Pregunta6" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Sábado en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/Samedi.jpg" alt="Samedi" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Lundi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Mardi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Dimanche</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta7')">Samedi</button>
+            </div>            
+        </section>
+        <section id="Pregunta6" class="ContenedorPregunta">
+            <div class="Pregunta">
+                Cómo es Domingo en francés
+            </div>
+            <div class="ImagenPregunta">
+                <img src="Recursos/Dimanche.jpg" alt="Dimanche" width="50%">
+            </div>
+                <div class="BotonesRespuesta">
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Jeudi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Lundi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'incorrecto')">Mercredi</button>
+                <button class="Boton" onclick="checkAnswer(this, 'correcto', 'Pregunta7')">Dimanche</button>
+            </div>            
+        </section>
+        
+    </main>
+<script src="Ejercicios.js"></script>
+<footer class="botones">
+    <div class="botonAnt">
+        <a href="Dias de la semana.html">
+            Introducción
+        </a>
+    </div>
+    <div class="botonSig">
+        <a href="Pagina principal.html">
+            Pagina principal
+        </a>
+    </div>
+    
+</footer>
+</body>
+</html>
